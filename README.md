@@ -25,7 +25,7 @@ Clone the repository and install dependencies:
 
 ```# Clone the repository
 git clone <repo_url>
-cd microfrontend-mvp
+cd mod-fed-mvp
 
 # Install dependencies for each app
 cd shell-app && npm install
