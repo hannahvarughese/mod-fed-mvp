@@ -1,0 +1,40 @@
+.app-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Default Light Theme */
+.app-container.light {
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Dark Theme */
+.app-container.dark {
+  background-color: #36454f;
+  color: #f1f1f1;
+}
+
+
+.common-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.common-nav a {
+  color: #4070f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.common-nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.app-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.common-nav a {
+  color: #4070f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.common-nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-top: 20px;
+}

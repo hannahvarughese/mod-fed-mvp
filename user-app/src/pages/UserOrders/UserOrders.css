@@ -1,0 +1,28 @@
+.orders-container {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .orders-container.light {
+    background: #f3e5f5;
+  }
+  .orders-container.dark {
+    background: #36455f;
+    color: #fff;
+  }
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .order-list.light li {
+    background: #fff;
+  }
+  .order-list.dark li {
+    background: #526890;
+  }

@@ -1,0 +1,28 @@
+.profile-container {
+    padding: 20px;
+    background: #e3f2fd;
+    border-radius: 8px;
+  }
+  .profile-container.light {
+    background: #e3f2fd;
+  }
+  .profile-container.dark {
+    background: #36455f;
+    color: #fff;
+  }
+  
+  
+  .profile-section {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-section.dark {
+    background: #526890;
+  }
+  .profile-section.light {
+    background: #ffffff;
+  }
